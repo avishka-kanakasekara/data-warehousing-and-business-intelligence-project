@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>MyCubeDB1</Database>
+    <Server>DESKTOP-1CGSB4T\SSAMD1</Server>
+    <ConnectionString>Data Source=DESKTOP-1CGSB4T\SSAMD1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>C8c3LwhpqCzedgMTxL4qEPEoVQw=3/30/2026 3:16:42 PM3/30/2026 3:16:42 PM</TimeStamp>
+        <ID>
+          <String>DW Student</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>8/VWK6X3BI27939TWZ7y5f5zpJ8=3/30/2026 6:33:45 PM3/30/2026 3:18:05 PM</TimeStamp>
+        <ID>
+          <String>DW Student_DSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FmkAwNBcumGVs0FDITLE8PwOF3M=3/31/2026 12:49:04 PM3/30/2026 6:33:44 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Hl+Sa9bprqbKF7zxAaNiYmGc7nY=3/31/2026 10:50:20 AM3/30/2026 6:33:44 PM</TimeStamp>
+        <ID>
+          <String>Dim Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BufNX4c2M923m4quPc/2ovzbV8E=3/31/2026 12:49:54 PM3/30/2026 6:33:44 PM</TimeStamp>
+        <ID>
+          <String>Dim Department</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ohUE4o3NIiyy6vsScQ7LimEQYQE=3/31/2026 10:49:57 AM3/30/2026 6:33:44 PM</TimeStamp>
+        <ID>
+          <String>Dim Student</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JCXt3d/9CoUl0b1QYBB8RKoaAiA=3/30/2026 6:33:45 PM3/30/2026 6:33:44 PM</TimeStamp>
+        <ID>
+          <String>Fact Student Performance</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5+Ooe4Qx+H4nensJfEGb3hFh/F4=3/31/2026 12:49:54 PM3/30/2026 6:33:44 PMSGHX3eGAPWG1fzHH+pS+Mfi38w0=3/31/2026 11:13:04 AM3/30/2026 6:33:44 PM</TimeStamp>
+        <ID>
+          <String>DW Student_cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>u5ZSrJIxLU/6kBDV1L7ZgH0r+Vg=3/30/2026 2:36:53 PM3/30/2026 2:36:53 PM</TimeStamp>
+      <ID>
+        <String>MyCubeDB1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-03-31T07:21:38.856667Z</LastDeployed>
+</DeploymentSnapshot>
